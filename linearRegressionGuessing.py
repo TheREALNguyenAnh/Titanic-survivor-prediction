@@ -66,4 +66,4 @@ def predict_survived(input_filename, coefficients_filename, output_filename):
     print(f"Predictions saved to {output_filename}")
 
 # Run to make predictions
-predict_survived('test.csv', 'coefficients.csv', 'predictions.csv')
+predict_survived('test.csv', 'coefficients_least_squares.csv', 'predictions.csv')
